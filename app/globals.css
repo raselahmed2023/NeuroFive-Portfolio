@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #020617;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+button,
+a,
+input,
+textarea {
+  transition: all 0.3s ease;
+}
+
+::selection {
+  background: #22d3ee;
+  color: #020617;
+}
